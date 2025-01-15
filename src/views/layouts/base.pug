@@ -1,0 +1,16 @@
+include ../../i18n/ru
+
+block page_variables
+
+doctype html
+html(lang=app.lang)
+  include ../shared/head
+  block head
+
+  body
+    .app(class=page_class)
+      header.header
+      main.main
+        block content
+      footer.footer
+  script(type="module", src="/src/main.ts")

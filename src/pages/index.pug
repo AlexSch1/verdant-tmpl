@@ -1,0 +1,12 @@
+extends ../views/layouts/base
+
+block page_variables
+  - var page_class = "index";
+
+block append head
+  block head_variables
+    - var title = app.head.index.title;
+    - var description = app.head.index.description;
+
+block content
+  h1 Hello
