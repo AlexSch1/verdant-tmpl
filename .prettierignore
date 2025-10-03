@@ -2,3 +2,8 @@ node_modules/
 dist/
 /src/public
 /coverage
+
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
